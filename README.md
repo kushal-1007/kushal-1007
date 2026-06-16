@@ -119,7 +119,7 @@ PostgreSQL · MySQL · SQLite · MongoDB
 
 ---
 
-## 🌐 Let’s Connect
+## 🌐 Let's Connect
 
 | Type      | Link                                               |
 | --------- | -------------------------------------------------- |
