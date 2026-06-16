@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/kushal-1007.png" width="140" alt="Kushal Trivedi Avatar" />
+</p>
 <h1 align="center">Hi, I'm Kushal Trivedi 👋</h1>
 
 <p align="center">
