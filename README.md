@@ -1,36 +1,26 @@
-<p align="center">
-  <img src="https://github.com/Parth-Patel007.png" width="140" alt="Parth Patel Avatar" />
-</p>
-
-<h1 align="center">Hi, I'm Parth Patel 👋</h1>
+<h1 align="center">Hi, I'm Kushal Trivedi 👋</h1>
 
 <p align="center">
-  <a href="https://github.com/Parth-Patel007">
+  <a href="https://github.com/kushal-1007">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Backend+Engineer;DevOps+%2F+Cloud+Engineer;System+Designer+who+loves+performance"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=600&lines=Data+Scientist;Machine+Learning+Engineer;Computer+Vision+%2F+NLP+Enthusiast;Building+End-to-End+ML+Pipelines"
       alt="Typing SVG"
     />
   </a>
 </p>
 
 <p align="center">
-  📍 Tempe, Arizona · 🎓 MS Software Engineering @ Arizona State University (Expected May 2026)  
+  📍 Tempe, Arizona · 🎓 MS in Data Science @ Arizona State University (Expected Dec 2026)
   <br />
-  🔍 <strong>Actively seeking:</strong> Full-Stack · Backend · DevOps · Cloud Engineer roles
+  🔍 <strong>Actively seeking:</strong> Data Science · Machine Learning · MLOps roles
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/Parth111">
-    <img src="https://img.shields.io/badge/LinkedIn-Parth111-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://linkedin.com/in/kushal-trivedi10">
+    <img src="https://img.shields.io/badge/LinkedIn-kushal--trivedi10-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:parthpatel.cse@gmail.com">
-    <img src="https://img.shields.io/badge/Email-parthpatel.cse%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://your-portfolio-link-here">
-    <img src="https://img.shields.io/badge/Portfolio-Website-4B8BBE?style=for-the-badge" />
-  </a>
-  <a href="https://your-resume-link-here">
-    <img src="https://img.shields.io/badge/Resume-PDF-43A047?style=for-the-badge" />
+  <a href="mailto:kushaltrivedi82@gmail.com">
+    <img src="https://img.shields.io/badge/Email-kushaltrivedi82%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
@@ -38,147 +28,107 @@
 
 ## 🛠 Skills & Tech Stack
 
-**Frontend & UI**  
-React · TypeScript · Redux · Next.js · TailwindCSS · Material-UI  
+**Languages & Frameworks**
+Python · Java · JavaScript · C/C++ · Django · Flask · FastAPI · React
 
-**Backend & APIs**  
-Spring Boot · Node.js · Express.js · GraphQL  
+**Databases & Storage**
+PostgreSQL · MySQL · SQLite · MongoDB
 
-**DevOps & Cloud**  
-AWS · Docker · Kubernetes · Terraform · Jenkins · GitHub Actions · Prometheus · Grafana  
+**DevOps & Cloud**
+AWS (S3, EC2) · Docker · GitHub Actions (CI/CD) · Git/GitHub
 
-**Databases & Streaming**  
-PostgreSQL · MongoDB · Redis · Apache Kafka · Apache Flink  
+**ML & Data Engineering**
+PyTorch · TensorFlow · scikit-learn · Transformers · RAG · ETL Pipelines
+
+**Data & Analytics**
+NumPy · Pandas · Matplotlib · OpenCV · BeautifulSoup
 
 ---
 
 ## 🎓 Education
 
-| School                   | Degree                    | Status                        |
-| ------------------------ | ------------------------- | ----------------------------- |
-| Arizona State University | MS, Software Engineering  | In progress · Exp. May 2026   |
+| School                                            | Degree                | Status                         |
+| -------------------------------------------------- | ----------------------- | -------------------------------- |
+| Arizona State University                           | MS, Data Science        | In progress · Exp. Dec 2026     |
+| New L.J. Institute of Engineering & Technology, India | BE, Computer Science    | Completed · June 2024           |
 
 ---
 
 ## 💼 Work Experience
 
-| Period              | Organization             | Role                        |
-| ------------------- | ------------------------ | --------------------------- |
-| Feb 2024 – Jun 2024 | IndiaNIC Private Limited | Software Development Intern |
-| Apr 2023 – Jul 2023 | Emerging Five Pvt Ltd    | Software Development Intern |
+| Period              | Organization           | Role                       |
+| -------------------- | ----------------------- | ----------------------------- |
+| Jan 2024 – Jun 2024  | Praxware Technologies   | Software Developer Intern   |
 
 ### 📝 Highlights
 
-**IndiaNIC Private Limited**  
-- ⚡ **API optimization:** 1s → 300ms (≈70% faster) with **95% payload reduction**  
-- 📈 **User engagement:** +23% via UI/UX overhaul and accessibility improvements  
-- 🐛 Fixed **500+ SonarQube issues** and refactored C#/.NET + React codebase  
-
-**Emerging Five Pvt Ltd**  
-- 👥 Built an app serving **10,000+ users** with **35% efficiency gain**  
-- 📊 Improved UX leading to **+25% engagement** and **−20% data-entry errors**  
-- ✅ Reduced **post-deployment bugs by ~40%** via Jest + Postman testing  
+**Praxware Technologies**
+- ⚡ Spearheaded end-to-end development of a full-stack placement management platform (Django, JavaScript, MySQL) using OOP design patterns and REST API design for role-based access, secure document uploads, and application workflows
+- 🔧 Overhauled core MySQL query logic and ETL data workflows for search, lifecycle tracking, and scheduling, reducing query latency under concurrent load
+- ✅ Instituted version-controlled practices via Git/GitHub with structured commits and unit-tested modules (pytest)
 
 ---
 
 ## 🚀 Projects
 
-### DeployMate — Production DevOps Dashboard
-**Stack:** Spring Boot · React · Docker · Terraform · AWS ECS Fargate · Prometheus · Grafana  
+### NYC Taxi Trip Data Mining & Fare Prediction
+**Stack:** Python · scikit-learn · Pandas · NumPy · pytest
 
-- 99.9% uptime with full CI/CD pipeline  
-- 68% automated test coverage  
-- Real-time monitoring and alerts for production workloads  
-
----
-
-### LLM From Scratch — 124M Parameter Transformer
-**Stack:** Python · PyTorch · Custom BPE Tokenizer · Docker  
-
-- Implemented transformer architecture with multi-head attention & positional embeddings  
-- Trained a **124M parameter** model on **5.5K+ samples** end-to-end  
-- Focus on understanding internals, not just using pre-built models  
+- Architected a scalable end-to-end ML pipeline to ingest, clean, and process 11.2M+ NYC taxi records via large-scale ETL, feature engineering, and EDA to surface spatio-temporal demand patterns
+- Benchmarked Linear Regression and Random Forest models achieving **R² ≈ 0.93** with ~3% RMSE reduction over baseline via cross-validation and hyperparameter tuning
+- Operationalized K-Means clustering (k=5, silhouette ≈ 0.38), z-score, and Isolation Forest for anomaly detection; validated with pytest unit tests
 
 ---
 
-### Agile Metrics — Code Quality Platform
-**Stack:** React · Java · Python · Docker · CI/CD  
+### Book Recommendation System
+**Stack:** Python (OOP) · FastAPI · Sparse Matrices
 
-- Computes Fog Index, defect tracking, comment coverage & complexity  
-- Provides actionable dashboards for engineering teams to improve code quality  
-
----
-
-### Chess Video Chat — Real-time P2P Gaming
-**Stack:** React 18 + TypeScript · WebRTC (P2P) · Firebase Realtime DB · Chess.js  
-
-- Sub-100ms board sync and \<1s video latency  
-- Peer-to-peer architecture for smooth multiplayer with integrated video chat  
+- Constructed and scaled a collaborative filtering engine using cosine similarity on large sparse user–item matrices
+- Delivered 210,000+ personalized recommendations across 105,000+ users via a FastAPI REST interface
 
 ---
 
-## 🏆 Impact Snapshot
+### Self-Driving Car Simulation (Neural Networks & Genetic Evolution)
+**Stack:** JavaScript (OOP) · Custom Neural Network
 
-| ⚡ Performance                         | 📈 Scale                           | 🔧 Quality & Ownership                        |
-| ------------------------------------- | ---------------------------------- | --------------------------------------------- |
-| 1000ms → 300ms APIs, 95% payload cut  | Apps serving 10,000+ users         | 500+ bugs fixed, CI/CD pipelines, monitoring |
-| \<50ms fraud detection pipelines      | 3000 TPS systems in real projects | 68% test coverage in production services     |
-
----
-
-## 🌐 Let’s Connect
-
-| Type      | Link                                               |
-| --------- | -------------------------------------------------- |
-| GitHub    | https://github.com/Parth-Patel007                 |
-| LinkedIn  | https://linkedin.com/in/Parth111                  |
-| Email     | parthpatel.cse@gmail.com                          |
-| Portfolio | _Replace with your portfolio URL_                 |
+- Modeled a 3-layer feedforward neural network (5→6→4) entirely from scratch, evolving 1,000 concurrent AI agents per generation via lerp-based weight/bias mutation and greedy best-agent selection — zero external ML libraries
+- Built a 5-ray cast sensor system with real-time line-segment intersection and polygon-based collision detection, reducing collisions by ~20% across training generations, with a live network visualizer
 
 ---
 
+### AI-Based Virtual Mouse System
+**Stack:** Python · OpenCV · MediaPipe · PyAutoGUI
+
+- Devised a real-time touchless mouse control system tracking 21 hand landmarks per frame, mapping index fingertip (landmark #8) coordinates to screen dimensions via webcam
+- Calibrated a pinch-gesture click mechanism using real-time pixel distance between landmarks #8 and #4, firing clicks at a tuned 20px threshold for fully hardware-free interaction
+
 ---
 
-## 📊 GitHub Activity Map
+## 🌐 Let's Connect
+
+| Type      | Link                                       |
+| --------- | --------------------------------------------- |
+| GitHub    | https://github.com/kushal-1007                |
+| LinkedIn  | https://linkedin.com/in/kushal-trivedi10       |
+| Email     | kushaltrivedi82@gmail.com                      |
+
+---
+
+## 📊 GitHub Activity
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Parth-Patel007&show_icons=true&include_all_commits=true&count_private=true"
-    alt="Parth Patel GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=kushal-1007&show_icons=true&include_all_commits=true&count_private=true"
+    alt="Kushal Trivedi GitHub Stats"
     height="165"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parth-Patel007&layout=compact"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kushal-1007&layout=compact"
     alt="Top Languages"
     height="165"
   />
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Parth-Patel007"
-    alt="GitHub Activity Graph"
-    width="95%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github.com/Parth-Patel007/Parth-Patel007/raw/main/profile-3d-contrib/profile-gitblock.svg"
-    alt="3D Contribution Graph"
-    width="600"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Parth-Patel007/Parth-Patel007/output/github-contribution-grid-snake-dark.svg"
-    alt="Contribution Snake"
-    width="600"
-  />
-</p>
-
-
-<p align="center">
-  Made with ❤️ by <strong>Parth Patel</strong> · Always learning, always building
+  Made with ❤️ by <strong>Kushal Trivedi</strong>
 </p>
