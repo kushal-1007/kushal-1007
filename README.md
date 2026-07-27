@@ -7,14 +7,14 @@
 <p align="center">
   <a href="https://github.com/kushal-1007">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=600&lines=Data+Scientist;Machine+Learning+Engineer;Computer+Vision+%2F+NLP+Enthusiast;Building+End-to-End+ML+Pipelines"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=650&lines=Data+Scientist;Machine+Learning+Engineer;NLP+%2F+Computer+Vision+Enthusiast;Building+End-to-End+ML+Pipelines"
       alt="Typing SVG"
     />
   </a>
 </p>
 
 <p align="center">
-  📍 Tempe, Arizona · 🎓 MS Data Science @ Arizona State University (Expected Dec 2026)  
+  📍 Tempe, Arizona · 🎓 MS Data Science @ Arizona State University (Expected Dec 2026)
   <br />
   🔍 <strong>Actively seeking:</strong> Data Science · Machine Learning · MLOps roles
 </p>
@@ -38,17 +38,17 @@
 
 ## 🛠 Skills & Tech Stack
 
-**Languages & Frameworks**  
-Python · Java · JavaScript · C/C++ · Django · Flask · FastAPI · React  
+**Languages & Frameworks**
+Python · Java · JavaScript/TypeScript · C/C++ · Django · Flask · FastAPI · React
 
-**ML & Data Engineering**  
-PyTorch · TensorFlow · scikit-learn · Transformers · RAG · ETL Pipelines  
+**ML, DL & NLP**
+PyTorch · TensorFlow · scikit-learn · Transformers (Hugging Face) · DistilBERT Fine-Tuning · RAG · LangChain · ETL Pipelines
 
-**DevOps & Cloud**  
-AWS (S3, EC2) · Docker · GitHub Actions (CI/CD) · Git/GitHub  
+**MLOps & Experiment Tracking**
+MLflow · DVC · Custom Drift Monitoring · Docker · GitHub Actions (CI/CD)
 
-**Databases & Storage**  
-PostgreSQL · MySQL · SQLite · MongoDB  
+**Cloud & Databases**
+AWS (S3, EC2) · PostgreSQL · MySQL · SQLite · MongoDB
 
 ---
 
@@ -63,72 +63,91 @@ PostgreSQL · MySQL · SQLite · MongoDB
 ## 💼 Work Experience
 
 | Period              | Organization             | Role                        |
-| ------------------- | ------------------------ | --------------------------- |
+| ------------------- | ------------------------ | ---------------------------- |
 | Jan 2024 – Jun 2024 | Praxware Technologies    | Software Developer Intern   |
 
 ### 📝 Highlights
 
-**Praxware Technologies**  
-- ⚡ Spearheaded end-to-end development of a full-stack placement management platform (Django, JavaScript, MySQL) using OOP design patterns and REST API design  
-- 📈 Overhauled core MySQL query logic and ETL data workflows, reducing query latency under concurrent load  
-- ✅ Instituted version-controlled practices via Git/GitHub with structured commits and unit-tested modules (pytest)  
+**Praxware Technologies**
+- ⚡ Spearheaded end-to-end development of a full-stack placement management platform (Django, JavaScript, MySQL) using OOP design patterns and REST API design
+- 📈 Overhauled core MySQL query logic and ETL data workflows, slashing query latency under concurrent load
+- ✅ Instituted version-controlled practices via Git/GitHub with structured commits and pytest-unit-tested modules
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-### NYC Taxi Trip Data Mining & Fare Prediction
-**Stack:** Python · scikit-learn · Pandas · NumPy · pytest  
+### 🎯 Sentiment Intelligence Platform
+**Stack:** Python · PyTorch · Transformers (DistilBERT) · FastAPI · React · Docker · MLflow · DVC
 
-- 11.2M+ NYC taxi records processed via large-scale ETL, feature engineering, and EDA  
-- Linear Regression & Random Forest models achieving **R² ≈ 0.93**, ~3% RMSE reduction over baseline  
-- K-Means (k=5, silhouette ≈ 0.38), z-score, and Isolation Forest for anomaly detection  
-
----
-
-### Book Recommendation System — Collaborative Filtering
-**Stack:** Python (OOP) · FastAPI · Sparse Matrices  
-
-- Cosine similarity engine on large sparse user–item matrices  
-- 210,000+ personalized recommendations across 105,000+ users via FastAPI REST interface  
+- Fine-tuned DistilBERT on Yelp reviews and shipped it as a fully productionized NLP system, not just a notebook model
+- Engineered a complete FastAPI + React serving stack, containerized end-to-end with Docker for reproducible deployment
+- Instrumented MLflow and DVC for experiment tracking and data versioning, plus a custom drift monitor to catch model decay in production
+- Documented the full build in an IEEE-format technical report
 
 ---
 
-### Self-Driving Car Simulation — Neural Networks & Genetic Evolution
-**Stack:** JavaScript (OOP) · Custom Neural Network  
+### 🧊 Glacier Melt Prediction & Climate Impact Analysis *(In Progress)*
+**Stack:** Python · Flask · NASA Satellite Imagery · Geospatial Processing
 
-- 3-layer feedforward neural network (5→6→4) built from scratch, zero external ML libraries  
-- 1,000 concurrent AI agents per generation via lerp-based mutation; ~20% collision reduction  
+- Architecting a 9-stage analysis pipeline processing NASA satellite imagery of the Gangotri Glacier to model melt and climate impact
+- Delivered preprocessing and glacier coverage mask calibration stages, validated against a formal Functional Specification (v2.0)
+- Built a live Flask dashboard with Coverage and Temperature modes, correlation charting, click-to-image inspection, and watchdog-driven real-time updates
+- Currently developing the Sea Level Anomaly Index module ahead of full pipeline integration
 
 ---
 
-### AI-Based Virtual Mouse System
-**Stack:** Python · OpenCV · MediaPipe · PyAutoGUI  
+### 🚕 NYC Taxi Trip Data Mining & Fare Prediction
+**Stack:** Python · scikit-learn · Pandas · NumPy · pytest
 
-- Real-time touchless mouse control tracking 21 hand landmarks per frame  
-- Pinch-gesture click mechanism with tuned 20px proximity threshold, fully hardware-free  
+- Mined and engineered features across 11.2M+ NYC taxi records through a large-scale ETL and EDA pipeline
+- Trained Linear Regression and Random Forest models, achieving **R² ≈ 0.93** and a **~3% RMSE reduction** over baseline
+- Detected fare anomalies using K-Means clustering (k=5, silhouette ≈ 0.38), z-score analysis, and Isolation Forest
+
+---
+
+### 📚 Book Recommendation System — Collaborative Filtering
+**Stack:** Python (OOP) · FastAPI · Sparse Matrices
+
+- Designed a cosine-similarity recommendation engine operating over large sparse user–item matrices
+- Served **210,000+** personalized recommendations to **105,000+** users through a FastAPI REST interface
+
+---
+
+### 🚗 Self-Driving Car Simulation — Neural Networks & Genetic Evolution
+**Stack:** JavaScript (OOP) · Custom Neural Network
+
+- Built a 3-layer feedforward neural network (5→6→4) entirely from scratch with zero external ML libraries
+- Evolved 1,000 concurrent AI agents per generation via lerp-based mutation, cutting collisions by **~20%**
+
+---
+
+### 🖐️ AI-Based Virtual Mouse System
+**Stack:** Python · OpenCV · MediaPipe · PyAutoGUI
+
+- Delivered real-time, hardware-free touchless mouse control tracking 21 hand landmarks per frame
+- Implemented a pinch-gesture click mechanism tuned to a 20px proximity threshold for reliable detection
 
 ---
 
 ## 🏆 Impact Snapshot
 
-| ⚡ Performance                         | 📈 Scale                           | 🔧 Quality & Ownership                        |
-| ------------------------------------- | ---------------------------------- | --------------------------------------------- |
-| R² ≈ 0.93, 3% RMSE reduction          | 11.2M+ records processed           | pytest-validated pipelines, Git-managed code  |
-| ~20% collision reduction              | 210,000+ recommendations, 105K+ users | Zero external ML libs, full-scratch NN        |
+| ⚡ Performance                          | 📈 Scale                              | 🔧 Quality & Ownership                          |
+| --------------------------------------- | -------------------------------------- | ------------------------------------------------ |
+| R² ≈ 0.93, ~3% RMSE reduction            | 11.2M+ records processed               | Full MLOps stack: MLflow, DVC, Docker, drift monitoring |
+| ~20% collision reduction                 | 210,000+ recommendations, 105K+ users  | pytest-validated pipelines, Git-managed code     |
+| Production-grade DistilBERT deployment   | 9-stage satellite imagery pipeline     | Zero external ML libs on custom neural net        |
 
 ---
 
 ## 🌐 Let's Connect
 
 | Type      | Link                                               |
-| --------- | -------------------------------------------------- |
-| GitHub    | https://github.com/kushal-1007                    |
-| LinkedIn  | https://linkedin.com/in/kushal-trivedi10           |
+| --------- | --------------------------------------------------- |
+| GitHub    | https://github.com/kushal-1007                     |
+| LinkedIn  | https://linkedin.com/in/kushal-trivedi10            |
 | Email     | kushaltrivedi82@gmail.com                          |
-| Portfolio | _Replace with your portfolio URL_                  |
-
----
+| Portfolio | _Replace with your portfolio URL_                   |
 
 ---
 
