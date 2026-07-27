@@ -155,12 +155,12 @@ AWS (S3, EC2) · PostgreSQL · MySQL · SQLite · MongoDB
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=kushal-1007&show_icons=true&include_all_commits=true&count_private=true"
+    src="https://kushal-github-stats.vercel.app/api?username=kushal-1007&show_icons=true&include_all_commits=true&count_private=true"
     alt="Kushal Trivedi GitHub Stats"
     height="165"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kushal-1007&layout=compact"
+    src="https://kushal-github-stats.vercel.app/api/top-langs/?username=kushal-1007&layout=compact"
     alt="Top Languages"
     height="165"
   />
