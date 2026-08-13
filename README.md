@@ -16,7 +16,7 @@
 <p align="center">
   📍 Tempe, Arizona · 🎓 MS Data Science @ Arizona State University (Expected Dec 2026)
   <br />
-  🔍 <strong>Actively seeking:</strong> Data Science · Machine Learning · MLOps roles
+  🔍 <strong>Actively seeking:</strong> Software Development · Data Science · Machine Learning · MLOps roles
 </p>
 
 <p align="center">
