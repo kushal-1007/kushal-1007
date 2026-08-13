@@ -87,7 +87,6 @@ An interactive dashboard that tracks Gangotri Glacier retreat alongside Bay of B
 - Shipped a live Flask dashboard with a global year-range filter, click-to-satellite-image inspection, and a watchdog-driven auto-refresh pipeline that pulls new NASA imagery automatically
 - Added an AI Insights tab powered by the Groq API (Llama 3.1) with an Anthropic fallback, generating narrative summaries and deterministic KPI-based key findings from live dashboard data
 - Layered a RAG + function-calling chatbot on top of the dashboard (ChromaDB, sentence-transformers, ReAct-style tool use) so the model can answer questions about the project's own findings in plain language
-- Descoped the ResNet18 classifier and Grad-CAM heatmap module for now — the melt projection stands on the statistical models above, and image classification is parked as a future add-on rather than a blocker
 
 ---
 
