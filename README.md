@@ -42,7 +42,7 @@
 Python · Java · JavaScript/TypeScript · C/C++ · Django · Flask · FastAPI · React
 
 **ML, DL & NLP**
-PyTorch · TensorFlow · scikit-learn · Transformers (Hugging Face) · DistilBERT Fine-Tuning · RAG · LangChain · ETL Pipelines
+PyTorch · TensorFlow · scikit-learn · Transformers (Hugging Face) · DistilBERT Fine-Tuning · RAG · LangChain · ChromaDB · ETL Pipelines
 
 **MLOps & Experiment Tracking**
 MLflow · DVC · Custom Drift Monitoring · Docker · GitHub Actions (CI/CD)
@@ -66,34 +66,38 @@ AWS (S3, EC2) · PostgreSQL · MySQL · SQLite · MongoDB
 | ------------------- | ------------------------ | ---------------------------- |
 | Jan 2024 – Jun 2024 | Praxware Technologies    | Software Developer Intern   |
 
-### 📝 Highlights
+### Praxware Technologies
 
-**Praxware Technologies**
-- ⚡ Spearheaded end-to-end development of a full-stack placement management platform (Django, JavaScript, MySQL) using OOP design patterns and REST API design
-- 📈 Overhauled core MySQL query logic and ETL data workflows, slashing query latency under concurrent load
-- ✅ Instituted version-controlled practices via Git/GitHub with structured commits and pytest-unit-tested modules
+- Built a full-stack placement management platform (Django, JavaScript, MySQL) using OOP design and REST APIs
+- Rewrote core MySQL queries and ETL workflows, cutting query latency under concurrent load
+- Set up Git/GitHub version control with structured commits and pytest-covered modules
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🎯 Sentiment Intelligence Platform
-**Stack:** Python · PyTorch · Transformers (DistilBERT) · FastAPI · React · Docker · MLflow · DVC
+### 🧊 Glacier Melt Prediction & Climate Impact Analysis
+**Stack:** Python · Flask · NASA GIBS Satellite Imagery · Groq LLM API · Chart.js · SciPy · Matplotlib
 
-- Fine-tuned DistilBERT on Yelp reviews and shipped it as a fully productionized NLP system, not just a notebook model
-- Engineered a complete FastAPI + React serving stack, containerized end-to-end with Docker for reproducible deployment
-- Instrumented MLflow and DVC for experiment tracking and data versioning, plus a custom drift monitor to catch model decay in production
-- Documented the full build in an IEEE-format technical report
+An interactive dashboard that tracks Gangotri Glacier retreat alongside Bay of Bengal ocean temperature and sea level anomalies, built for a research-style assignment with staged manager reviews at every phase.
+
+- Built a 4-stage pixel analysis pipeline computing year-over-year glacier coverage, ocean temperature index, and sea level anomaly index from raw satellite imagery
+- Fitted and compared linear and sine-trend regression models on 16 years of coverage data (2010–2025); the two independent models converge on a melt window of 2049–2052, with 50% coverage loss already projected around 2030
+- Ran Pearson correlation analysis across all three signals on outlier-cleaned years, surfacing a weak positive coupling between glacier coverage and ocean temperature (r = 0.39) and coverage and sea level (r = 0.38)
+- Shipped a live Flask dashboard with a global year-range filter, click-to-satellite-image inspection, and a watchdog-driven auto-refresh pipeline that pulls new NASA imagery automatically
+- Added an AI Insights tab powered by the Groq API (Llama 3.1) with an Anthropic fallback, generating narrative summaries and deterministic KPI-based key findings from live dashboard data
+- Layered a RAG + function-calling chatbot on top of the dashboard (ChromaDB, sentence-transformers, ReAct-style tool use) so the model can answer questions about the project's own findings in plain language
+- Descoped the ResNet18 classifier and Grad-CAM heatmap module for now — the melt projection stands on the statistical models above, and image classification is parked as a future add-on rather than a blocker
 
 ---
 
-### 🧊 Glacier Melt Prediction & Climate Impact Analysis *(In Progress)*
-**Stack:** Python · Flask · NASA Satellite Imagery · Geospatial Processing
+### 🎯 Sentiment Intelligence Platform
+**Stack:** Python · PyTorch · Transformers (DistilBERT) · FastAPI · React · Docker · MLflow · DVC
 
-- Architecting a 9-stage analysis pipeline processing NASA satellite imagery of the Gangotri Glacier to model melt and climate impact
-- Delivered preprocessing and glacier coverage mask calibration stages, validated against a formal Functional Specification (v2.0)
-- Built a live Flask dashboard with Coverage and Temperature modes, correlation charting, click-to-image inspection, and watchdog-driven real-time updates
-- Currently developing the Sea Level Anomaly Index module ahead of full pipeline integration
+- Fine-tuned DistilBERT on Yelp reviews and shipped it as a production NLP system rather than a notebook model
+- Built a FastAPI + React serving stack, containerized end-to-end with Docker for reproducible deployment
+- Set up MLflow and DVC for experiment tracking and data versioning, plus a custom drift monitor to catch model decay after deployment
+- Wrote up the full build in an IEEE-format technical report
 
 ---
 
@@ -101,42 +105,42 @@ AWS (S3, EC2) · PostgreSQL · MySQL · SQLite · MongoDB
 **Stack:** Python · scikit-learn · Pandas · NumPy · pytest
 
 - Mined and engineered features across 11.2M+ NYC taxi records through a large-scale ETL and EDA pipeline
-- Trained Linear Regression and Random Forest models, achieving **R² ≈ 0.93** and a **~3% RMSE reduction** over baseline
-- Detected fare anomalies using K-Means clustering (k=5, silhouette ≈ 0.38), z-score analysis, and Isolation Forest
+- Trained Linear Regression and Random Forest models, reaching R² ≈ 0.93 with a ~3% RMSE reduction over baseline
+- Flagged fare anomalies using K-Means clustering (k=5, silhouette ≈ 0.38), z-score analysis, and Isolation Forest
 
 ---
 
 ### 📚 Book Recommendation System — Collaborative Filtering
 **Stack:** Python (OOP) · FastAPI · Sparse Matrices
 
-- Designed a cosine-similarity recommendation engine operating over large sparse user–item matrices
-- Served **210,000+** personalized recommendations to **105,000+** users through a FastAPI REST interface
+- Built a cosine-similarity recommendation engine over large sparse user–item matrices
+- Served 210,000+ personalized recommendations to 105,000+ users through a FastAPI REST interface
 
 ---
 
 ### 🚗 Self-Driving Car Simulation — Neural Networks & Genetic Evolution
 **Stack:** JavaScript (OOP) · Custom Neural Network
 
-- Built a 3-layer feedforward neural network (5→6→4) entirely from scratch with zero external ML libraries
-- Evolved 1,000 concurrent AI agents per generation via lerp-based mutation, cutting collisions by **~20%**
+- Built a 3-layer feedforward neural network (5→6→4) from scratch, no external ML libraries
+- Evolved 1,000 concurrent AI agents per generation via lerp-based mutation, cutting collisions by ~20%
 
 ---
 
 ### 🖐️ AI-Based Virtual Mouse System
 **Stack:** Python · OpenCV · MediaPipe · PyAutoGUI
 
-- Delivered real-time, hardware-free touchless mouse control tracking 21 hand landmarks per frame
-- Implemented a pinch-gesture click mechanism tuned to a 20px proximity threshold for reliable detection
+- Built real-time, hardware-free touchless mouse control tracking 21 hand landmarks per frame
+- Tuned a pinch-gesture click mechanism to a 20px proximity threshold for reliable detection
 
 ---
 
 ## 🏆 Impact Snapshot
 
-| ⚡ Performance                          | 📈 Scale                              | 🔧 Quality & Ownership                          |
-| --------------------------------------- | -------------------------------------- | ------------------------------------------------ |
-| R² ≈ 0.93, ~3% RMSE reduction            | 11.2M+ records processed               | Full MLOps stack: MLflow, DVC, Docker, drift monitoring |
-| ~20% collision reduction                 | 210,000+ recommendations, 105K+ users  | pytest-validated pipelines, Git-managed code     |
-| Production-grade DistilBERT deployment   | 9-stage satellite imagery pipeline     | Zero external ML libs on custom neural net        |
+| ⚡ Performance                            | 📈 Scale                               | 🔧 Quality & Ownership                          |
+| ----------------------------------------- | --------------------------------------- | ------------------------------------------------ |
+| Glacier melt window narrowed to 2049–2052 across 2 independent models | 11.2M+ taxi records processed           | Full MLOps stack on sentiment platform: MLflow, DVC, Docker, drift monitoring |
+| R² ≈ 0.93, ~3% RMSE reduction (taxi fares) | 210,000+ recommendations, 105K+ users   | pytest-validated pipelines, Git-managed code     |
+| ~20% collision reduction (self-driving sim)| 16 years of satellite imagery analyzed  | Zero external ML libs on custom neural net        |
 
 ---
 
