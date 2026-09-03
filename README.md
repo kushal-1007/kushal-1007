@@ -26,10 +26,10 @@
   <a href="mailto:kushaltrivedi82@gmail.com">
     <img src="https://img.shields.io/badge/Email-kushaltrivedi82%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://your-portfolio-link-here">
+  <a href="https://github.com/kushal-1007">
     <img src="https://img.shields.io/badge/Portfolio-Website-4B8BBE?style=for-the-badge" />
   </a>
-  <a href="https://your-resume-link-here">
+  <a href="https://raw.githubusercontent.com/kushal-1007/kushal-1007/main/final_data_science_new.pdf">
     <img src="https://img.shields.io/badge/Resume-PDF-43A047?style=for-the-badge" />
   </a>
 </p>
