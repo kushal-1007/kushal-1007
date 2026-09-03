@@ -170,6 +170,14 @@ Two independent regression models (linear + sine-trend) fit on 16 years of Gango
 
 <p align="center">
   <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=kushal-1007"
+    alt="GitHub Activity Graph"
+    width="95%"
+  />
+</p>
+
+<p align="center">
+  <img
     src="https://github.com/kushal-1007/kushal-1007/raw/main/profile-3d-contrib/profile-gitblock.svg"
     alt="3D Contribution Graph"
     width="600"
