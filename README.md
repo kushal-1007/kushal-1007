@@ -20,27 +20,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kushal-1007">
-    <img src="https://img.shields.io/badge/GitHub-kushal--1007-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
   <a href="https://linkedin.com/in/kushal-trivedi10">
     <img src="https://img.shields.io/badge/LinkedIn-kushal--trivedi10-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:kushaltrivedi82@gmail.com">
     <img src="https://img.shields.io/badge/Email-kushaltrivedi82%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://your-portfolio-link-here">
+    <img src="https://img.shields.io/badge/Portfolio-Website-4B8BBE?style=for-the-badge" />
+  </a>
+  <a href="https://your-resume-link-here">
+    <img src="https://img.shields.io/badge/Resume-PDF-43A047?style=for-the-badge" />
+  </a>
 </p>
-
-<!-- TODO: once your portfolio site / hosted resume are live, add two more badges here
-     pointing to real URLs — don't ship placeholder links. -->
-
----
-
-## ⚡ Quick Stats
-
-- 🧊 Glacier melt window narrowed to **2049–2052** across two independent regression models
-- 🎯 Production NLP platform: DistilBERT + FastAPI + Docker + MLflow/DVC, fully deployed
-- 🚕 R² ≈ **0.93** on 11.2M+ NYC taxi records · 📚 210K+ recommendations served to 105K+ users
 
 ---
 
@@ -89,21 +81,19 @@ AWS (S3, EC2) · PostgreSQL · MySQL · SQLite · MongoDB
 
 Two independent regression models (linear + sine-trend) fit on 16 years of Gangotri Glacier coverage data converge on a **2049–2052 melt window**, with 50% coverage loss already projected around 2030.
 
-- Built a 4-process pipeline computing year-over-year glacier coverage (calibrated RGB spectral index), ocean temperature index, and sea level anomaly index from raw NASA satellite imagery
-- Ran Pearson correlation analysis across all three signals on outlier-cleaned years, surfacing weak positive coupling between glacier coverage and ocean temperature (r = 0.39) and coverage and sea level (r = 0.38)
-- Shipped a live Flask dashboard with global year-range filtering, click-to-satellite-image inspection, and a watchdog-driven auto-refresh pipeline pulling new NASA imagery automatically
-- Added an AI Insights tab (Groq/Llama 3.1, Anthropic fallback) that reads all 19 live dashboard panel values and generates narrative summaries and deterministic KPI-based key findings
-- Layered a RAG + function-calling chatbot on top of the dashboard (ChromaDB, sentence-transformers, ReAct-style tool use) so users can query the project's own findings in plain language
+- Built a 4-stage pixel analysis pipeline computing year-over-year glacier coverage, ocean temperature index, and sea level anomaly index from raw satellite imagery
+- Ran Pearson correlation analysis across all three signals on outlier-cleaned years, surfacing a weak positive coupling between glacier coverage and ocean temperature (r = 0.39) and coverage and sea level (r = 0.38)
+- Shipped a live Flask dashboard with a global year-range filter, click-to-satellite-image inspection, and a watchdog-driven auto-refresh pipeline that pulls new NASA imagery automatically
+- Added an AI Insights tab powered by the Groq API (Llama 3.1) with an Anthropic fallback, generating narrative summaries and deterministic KPI-based key findings from live dashboard data
+- Layered a RAG + function-calling chatbot on top of the dashboard (ChromaDB, sentence-transformers, ReAct-style tool use) so the model can answer questions about the project's own findings in plain language
 
 ---
 
 ### 🎯 Sentiment Intelligence Platform
 **Stack:** Python · PyTorch · Transformers (DistilBERT) · FastAPI · Docker · MLflow · DVC · SHAP · Evidently · GitHub Actions
 
-A 5-class Yelp review sentiment classifier shipped as a full production system, not a notebook model.
-
-- Fine-tuned DistilBERT and served it through a FastAPI backend powering both the REST API and an HTML/JS dashboard
-- Containerized end-to-end with Docker and wired up GitHub Actions CI/CD
+- Fine-tuned DistilBERT on Yelp reviews and shipped it as a production NLP system rather than a notebook model
+- Built a FastAPI backend serving both the REST API and an HTML/JS dashboard, containerized end-to-end with Docker and wired up GitHub Actions CI/CD
 - Set up MLflow and DVC for experiment tracking and data versioning, SHAP for explainability, and Evidently for post-deployment drift monitoring
 - Added a pytest unit/integration test suite and wrote up the full build in an IEEE-format technical report
 
@@ -112,19 +102,33 @@ A 5-class Yelp review sentiment classifier shipped as a full production system, 
 ### 🚕 NYC Taxi Trip Data Mining & Fare Prediction
 **Stack:** Python · scikit-learn · Pandas · NumPy · pytest · *4-person team project*
 
-- Engineered features across 11.2M+ NYC taxi records through a large-scale ETL and EDA pipeline
+- Mined and engineered features across 11.2M+ NYC taxi records through a large-scale ETL and EDA pipeline
 - Trained Linear Regression and Random Forest models, reaching R² ≈ 0.93 with a ~3% RMSE reduction over baseline
 - Flagged fare anomalies using K-Means clustering (k=5, silhouette ≈ 0.38), z-score analysis, and Isolation Forest
 
 ---
 
-### 📚 More Projects
+### 📚 Book Recommendation System — Collaborative Filtering
+**Stack:** Python (OOP) · FastAPI · Sparse Matrices
 
-| Project | Stack | Highlight |
-|---|---|---|
-| Book Recommendation System | Python (OOP), FastAPI, Sparse Matrices | 210K+ recommendations served to 105K+ users via cosine-similarity engine |
-| Self-Driving Car Simulation | JavaScript, Custom Neural Net | 3-layer NN (5→6→4) from scratch; 1,000 concurrent agents/generation, ~20% fewer collisions |
-| AI-Based Virtual Mouse | Python, OpenCV, MediaPipe | Touchless mouse control tracking 21 hand landmarks/frame, 20px pinch-click threshold |
+- Built a cosine-similarity recommendation engine over large sparse user–item matrices
+- Served 210,000+ personalized recommendations to 105,000+ users through a FastAPI REST interface
+
+---
+
+### 🚗 Self-Driving Car Simulation — Neural Networks & Genetic Evolution
+**Stack:** JavaScript (OOP) · Custom Neural Network
+
+- Built a 3-layer feedforward neural network (5→6→4) from scratch, no external ML libraries
+- Evolved 1,000 concurrent AI agents per generation via lerp-based mutation, cutting collisions by ~20%
+
+---
+
+### 🖐️ AI-Based Virtual Mouse System
+**Stack:** Python · OpenCV · MediaPipe · PyAutoGUI
+
+- Built real-time, hardware-free touchless mouse control tracking 21 hand landmarks per frame
+- Tuned a pinch-gesture click mechanism to a 20px proximity threshold for reliable detection
 
 ---
 
@@ -133,26 +137,61 @@ A 5-class Yelp review sentiment classifier shipped as a full production system, 
 | ⚡ Performance                            | 📈 Scale                               | 🔧 Quality & Ownership                          |
 | ----------------------------------------- | --------------------------------------- | ------------------------------------------------ |
 | Glacier melt window narrowed to 2049–2052 across 2 independent models | 11.2M+ taxi records processed           | Full MLOps stack on sentiment platform: MLflow, DVC, SHAP, Evidently, Docker, CI/CD, pytest |
-| R² ≈ 0.93, ~3% RMSE reduction (taxi fares) | 210,000+ recommendations, 105K+ users   | Zero external ML libs on custom neural net        |
-| ~20% collision reduction (self-driving sim)| 16 years of satellite imagery analyzed  | pytest-validated pipelines, Git-managed code     |
+| R² ≈ 0.93, ~3% RMSE reduction (taxi fares) | 210,000+ recommendations, 105K+ users   | pytest-validated pipelines, Git-managed code     |
+| ~20% collision reduction (self-driving sim)| 16 years of satellite imagery analyzed  | Zero external ML libs on custom neural net        |
 
 ---
 
-## 📊 GitHub Activity
+## 🌐 Let's Connect
+
+| Type      | Link                                               |
+| --------- | --------------------------------------------------- |
+| GitHub    | https://github.com/kushal-1007                     |
+| LinkedIn  | https://linkedin.com/in/kushal-trivedi10            |
+| Email     | kushaltrivedi82@gmail.com                          |
+| Portfolio | _Replace with your portfolio URL_                   |
+
+---
+
+## 📊 GitHub Activity Map
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=kushal-1007&show_icons=true&include_all_commits=true&count_private=true"
+    src="https://kushal-github-stats.vercel.app/api?username=kushal-1007&show_icons=true&include_all_commits=true&count_private=true"
     alt="Kushal Trivedi GitHub Stats"
     height="165"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=kushal-1007&layout=compact"
+    src="https://kushal-github-stats.vercel.app/api/top-langs/?username=kushal-1007&layout=compact"
     alt="Top Languages"
     height="165"
   />
 </p>
 
 <p align="center">
-  Always learning, always building.
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=kushal-1007"
+    alt="GitHub Activity Graph"
+    width="95%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/kushal-1007/kushal-1007/raw/main/profile-3d-contrib/profile-gitblock.svg"
+    alt="3D Contribution Graph"
+    width="600"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/kushal-1007/kushal-1007/output/github-contribution-grid-snake-dark.svg"
+    alt="Contribution Snake"
+    width="600"
+  />
+</p>
+
+<p align="center">
+  Made with ❤️ by <strong>Kushal Trivedi</strong> · Always learning, always building
 </p>
