@@ -185,11 +185,11 @@ Two independent regression models (linear + sine-trend) fit on 16 years of Gango
 </p>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/kushal-1007/kushal-1007/output/github-contribution-grid-snake-dark.svg"
-    alt="Contribution Snake"
-    width="600"
-  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kushal-1007/kushal-1007/output-snake/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kushal-1007/kushal-1007/output-snake/github-contribution-grid-snake.svg">
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/kushal-1007/kushal-1007/output-snake/github-contribution-grid-snake.svg" width="600" />
+  </picture>
 </p>
 
 <p align="center">
