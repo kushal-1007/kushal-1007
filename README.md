@@ -149,7 +149,6 @@ Two independent regression models (linear + sine-trend) fit on 16 years of Gango
 | GitHub    | https://github.com/kushal-1007                     |
 | LinkedIn  | https://linkedin.com/in/kushal-trivedi10            |
 | Email     | kushaltrivedi82@gmail.com                          |
-| Portfolio | _Replace with your portfolio URL_                   |
 
 ---
 
